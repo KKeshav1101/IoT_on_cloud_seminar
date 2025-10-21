@@ -104,13 +104,21 @@
     <!-- Main Content -->
     <main class="container mx-auto px-6 py-16 md:py-24 space-y-24 md:space-y-32">
 
+        <!-- Presenter Info Card -->
+        <section class="scroll-target">
+             <div class="card max-w-2xl mx-auto p-8 rounded-2xl text-center">
+                <img src="https://placehold.co/80x80/1e293b/c084fc?text=JD" alt="Presenter Avatar" class="rounded-full mx-auto mb-4 border-2 border-violet-400">
+                <h3 class="text-2xl font-bold text-slate-100">Presented By: Keshav Kannan</h3>
+            </div>
+        </section>
+
         <!-- 1. Introduction: IoT & Cloud Computing -->
         <section id="introduction" class="scroll-target">
             <div class="numbered-heading mb-8">
                 <span class="number">01</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">The Symbiotic Relationship</h2>
             </div>
-            <p class="text-slate-400 text-lg max-w-4xl mb-12">
+            <p class="text-slate-400 text-lg max-w-4xl mb-12 mx-auto text-center">
                 IoT applications generate a massive volume and velocity of data. Cloud computing provides the essential backbone for storing, processing, and analyzing this data, turning raw sensor readings into actionable insights.
             </p>
             <div class="grid md:grid-cols-2 gap-8">
@@ -137,7 +145,7 @@
                 <span class="number">02</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">The Vision of Connected Living</h2>
             </div>
-            <p class="text-slate-400 text-lg max-w-4xl mb-12">
+            <p class="text-slate-400 text-lg max-w-4xl mb-12 mx-auto text-center">
                 IoT and the cloud are fundamentally reshaping our environments, creating a seamless ecosystem of "Connected Living" that spans our homes, workplaces, and cities.
             </p>
             <div class="card rounded-2xl p-8 md:p-12">
@@ -183,7 +191,7 @@
                 <span class="number">03</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Layers of the Cloud</h2>
             </div>
-            <p class="text-slate-400 text-lg max-w-4xl mb-12">
+            <p class="text-slate-400 text-lg max-w-4xl mb-12 mx-auto text-center">
                 Cloud services are delivered in different layers of abstraction, each providing a specific level of control and management. These models allow developers to choose the right tools for their IoT applications.
             </p>
             <div class="grid md:grid-cols-3 gap-8">
@@ -217,10 +225,75 @@
                 <span class="number">04</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">A Framework for Integration</h2>
             </div>
-            <p class="text-slate-400 text-lg max-w-4xl mb-12">
+            <p class="text-slate-400 text-lg max-w-4xl mb-12 mx-auto text-center">
                 Integrating IoT with the cloud creates a powerful, scalable system. This framework highlights the key components working in concert to bridge the physical and digital worlds.
             </p>
-                    </section>
+            <div class="card p-4 md:p-8 rounded-2xl">
+                 <svg width="100%" viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <style>
+                            .outer-box-label { font-family: 'Inter', sans-serif; font-size: 16px; fill: #e2e8f0; text-anchor: middle; font-weight: bold; }
+                            .outer-box-desc { font-family: 'Inter', sans-serif; font-size: 12px; fill: #94a3b8; text-anchor: middle; }
+                            .inner-box-label { font-family: 'Inter', sans-serif; font-size: 14px; fill: #cbd5e1; text-anchor: middle; font-weight: 500;}
+                            .line { stroke: #475569; stroke-width: 1.5; }
+                        </style>
+                    </defs>
+
+                    <!-- Central Box -->
+                    <rect x="150" y="125" width="300" height="250" fill="rgba(30, 41, 59, 0.7)" stroke="#475569" stroke-width="1" />
+                    <text x="300" y="115" class="inner-box-label">In IoT</text>
+
+                    <!-- Icons inside the box -->
+                    <g transform="translate(225, 185)">
+                        <g data-lucide="brain-circuit" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2a4.5 4.5 0 0 0-4.5 4.5v1.4a4.5 4.5 0 0 0-4.46 4.95A4.5 4.5 0 0 0 7.5 22a4.5 4.5 0 0 0 4.5-4.5v-1.4a4.5 4.5 0 0 0 4.46-4.95A4.5 4.5 0 0 0 12 2Z"></path><path d="M12 2v4"></path><path d="M12 18v4"></path><path d="m14.5 4.5 1-1"></path><path d="m4.5 9.5-1 1"></path><path d="M12 7.5a2.5 2.5 0 0 0-2.5 2.5v1a2.5 2.5 0 0 0 2.5 2.5"></path><path d="M12 12.5a2.5 2.5 0 0 1 2.5 2.5v1a2.5 2.5 0 0 1-2.5 2.5"></path><path d="m9.5 4.5-1-1"></path><path d="m19.5 9.5 1 1"></path><path d="m14.5 19.5 1 1"></path><path d="M4.5 14.5l-1-1"></path><path d="m9.5 19.5-1 1"></path><path d="m19.5 14.5 1-1"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(375, 185)">
+                        <g data-lucide="laptop" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                           <path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55A1 1 0 0 1 20.7 20H3.3a1 1 0 0 1-.58-1.45L4 16"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(225, 310)">
+                       <g data-lucide="network" fill="none" stroke="#818cf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="16" y="16" width="6" height="6" rx="1"></rect><rect x="2" y="16" width="6" height="6" rx="1"></rect><rect x="9" y="2" width="6" height="6" rx="1"></rect><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"></path><path d="M12 12V8"></path>
+                       </g>
+                    </g>
+                    <g transform="translate(375, 310)">
+                       <g data-lucide="database" fill="none" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5V19A9 3 0 0 0 21 19V5"></path><path d="M3 12A9 3 0 0 0 21 12"></path>
+                       </g>
+                    </g>
+
+                    <!-- Connecting Lines -->
+                    <line x1="285" y1="250" x2="315" y2="250" class="line" />
+                    <line x1="300" y1="235" x2="300" y2="265" class="line" />
+                    <line x1="285" y1="235" x2="315" y2="265" class="line" stroke-dasharray="2 2"/>
+                    <line x1="315" y1="235" x2="285" y2="265" class="line" stroke-dasharray="2 2"/>
+
+                    <!-- Labels around the box -->
+                    <g transform="translate(300, 50)">
+                         <text class="outer-box-label">Instrumentation</text>
+                         <text y="20" class="outer-box-desc">Edge technologies for sensors and actuators</text>
+                    </g>
+                     <g transform="translate(300, 435)">
+                         <text class="outer-box-label">Communication</text>
+                         <text y="20" class="outer-box-desc">Networking technologies for wire and wireless networking</text>
+                    </g>
+                    <g transform="translate(50, 250) rotate(-90)">
+                         <text class="outer-box-label">Intelligence</text>
+                         <text y="20" class="outer-box-desc">Decision making application services with</text>
+                         <text y="35" class="outer-box-desc">limited computational capacity</text>
+                    </g>
+                    <g transform="translate(550, 250) rotate(90)">
+                         <text class="outer-box-label">Interconnection</text>
+                         <text y="20" class="outer-box-desc">Interoperable service-oriented middleware</text>
+                         <text y="35" class="outer-box-desc">and architecture for heterogeneous devices</text>
+                    </g>
+
+                </svg>
+            </div>
+        </section>
 
 
         <!-- 5. Big Data Platforms -->
@@ -229,7 +302,7 @@
                 <span class="number">05</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Handling the Data Deluge</h2>
             </div>
-             <p class="text-slate-400 text-lg max-w-4xl mb-12">
+             <p class="text-slate-400 text-lg max-w-4xl mb-12 mx-auto text-center">
                 Specialized open-source platforms are essential for processing the massive datasets generated by IoT devices. These tools form the core of the cloud's data processing capabilities.
             </p>
             <div class="grid md:grid-cols-2 gap-8">
@@ -256,7 +329,7 @@
                 <span class="number">06</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Specialized IoT Cloud Services</h2>
             </div>
-            <p class="text-slate-400 text-lg max-w-4xl mb-12">
+            <p class="text-slate-400 text-lg max-w-4xl mb-12 mx-auto text-center">
                 Beyond general computing, the cloud offers specialized services tailored for the unique needs of the Internet of Things, treating sensors and events as on-demand resources.
             </p>
             <div class="space-y-6">
@@ -290,14 +363,70 @@
                 <span class="number">07</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Major IoT Cloud Platforms</h2>
             </div>
-            <p class="text-slate-400 text-lg max-w-4xl mb-12">
+            <p class="text-slate-400 text-lg max-w-4xl mb-12 mx-auto text-center">
                 Numerous providers offer end-to-end IoT cloud platforms, each with unique strengths in scalability, cost, and functionality. Here are some prominent examples.
             </p>
             <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <div class="card p-8 rounded-2xl">
                     <h3 class="text-2xl font-bold text-slate-100 mb-2">Kaa IoT Platform</h3>
                     <p class="text-slate-400 mb-6">An open-source, multipurpose middleware platform for end-to-end IoT development, known for its modularity and flexibility.</p>
-                                    </div>
+                     <div class="p-6">
+                        <svg width="100%" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                            <style>
+                                .kaa-text { font-family: 'Inter', sans-serif; font-size: 10px; fill: #cbd5e1; text-anchor: middle; }
+                                .kaa-icon { fill: #a78bfa; }
+                            </style>
+                            <!-- Center Hexagon -->
+                            <polygon points="150,110 184.6,130 184.6,170 150,190 115.4,170 115.4,130" fill="#4f46e5"/>
+                            <text x="150" y="155" text-anchor="middle" font-size="24" font-weight="bold" fill="white">Kaa</text>
+                            
+                            <!-- Surrounding Icons & Text -->
+                            <g transform="translate(150, 60)">
+                                <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="#334155"/>
+                                <path d="M-9,2 C-9,2 -1,11 0,11 C1,11 9,2 9,2 C9,-7 -9,-7 -9,2 Z M-4,-2 L4,-2 M-4,2 L4,2" stroke-width="1.5" stroke="#a78bfa" fill="none"/>
+                                <text y="35" class="kaa-text">Multitenancy</text>
+                            </g>
+                            <g transform="translate(230, 105)">
+                                <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="#334155"/>
+                                <rect x="-7" y="-7" width="5" height="5" stroke-width="1.5" stroke="#a78bfa" fill="none"/>
+                                <rect x="2" y="-7" width="5" height="5" stroke-width="1.5" stroke="#a78bfa" fill="none"/>
+                                <rect x="-7" y="2" width="5" height="5" stroke-width="1.5" stroke="#a78bfa" fill="none"/>
+                                <rect x="2" y="2" width="5" height="5" stroke-width="1.5" stroke="#a78bfa" fill="none"/>
+                                <text y="35" class="kaa-text">Modular,</text>
+                                <text y="48" class="kaa-text">customizable</text>
+                            </g>
+                             <g transform="translate(230, 195)">
+                                <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="#334155"/>
+                                <circle cx="0" cy="-6" r="4" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                <circle cx="-6" cy="6" r="4" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                <circle cx="6" cy="6" r="4" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                <path d="M0 -2 L-4 4 M0 -2 L4 4" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                <text y="35" class="kaa-text">Application</text>
+                                 <text y="48" class="kaa-text">versioning</text>
+                            </g>
+                            <g transform="translate(150, 240)">
+                                 <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="#334155"/>
+                                 <path d="M-8 -6 L 2 -6 L 8 0 L 8 8 L -8 8 Z M-4 -2 L 4 -2" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                 <path d="M2 -6 L 2 0" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                <text y="35" class="kaa-text">Configuration</text>
+                            </g>
+                             <g transform="translate(70, 195)">
+                                 <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="#334155"/>
+                                 <path d="M-8 4 L-4 8 L8 -4 M-4 -8 L4 8" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                 <path d="M-8 -4 L -4 -8 L 8 4 M -4 8 L 4 -4" stroke="#a78bfa" stroke-width="1.5" fill="none" transform="scale(-1, 1)"/>
+                                <text y="35" class="kaa-text">Scalable, elastic,</text>
+                                 <text y="48" class="kaa-text">self-healing</text>
+                            </g>
+                            <g transform="translate(70, 105)">
+                                <circle cx="0" cy="0" r="20" fill="#1e293b" stroke="#334155"/>
+                                <rect x="-8" y="-8" width="16" height="16" rx="2" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                <path d="M-4 -8 L -4 8 M-4 0 L4 0" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+                                <text y="35" class="kaa-text">Open IoT</text>
+                                 <text y="48" class="kaa-text">protocol</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
                 <div class="card p-8 rounded-2xl">
                     <h3 class="text-2xl font-bold text-slate-100 mb-2">ThingSpeak IoT Platform</h3>
                     <p class="text-slate-400">An open-source platform focused on collecting, storing, and visualizing sensor data in the cloud, with strong integration with MATLAB for analysis.</p>
@@ -319,7 +448,7 @@
                 <span class="number">08</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">REST APIs: The Language of IoT</h2>
             </div>
-             <p class="text-slate-400 text-lg max-w-4xl mb-12">
+             <p class="text-slate-400 text-lg max-w-4xl mb-12 mx-auto text-center">
                 Representational State Transfer (REST) is the preferred architectural style for IoT web services due to its simplicity, lightweight nature, and stateless communication over standard HTTP.
             </p>
             <div class="card rounded-2xl p-8 md:p-12">
@@ -344,6 +473,21 @@
                  <div class="mt-8 text-center bg-slate-800/50 p-4 rounded-lg">
                     <p class="text-slate-300"><span class="font-bold text-white">Key Principle:</span> The interaction is <span class="gradient-text font-semibold">stateless</span>. Each request from the client contains all the information needed for the server to fulfill it, without relying on any stored context.</p>
                 </div>
+            </div>
+        </section>
+
+        <!-- 9. Thank You & Q&A -->
+        <section class="scroll-target">
+            <div class="numbered-heading mb-8 justify-center">
+                <span class="number">09</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Thank You</h2>
+            </div>
+             <div class="card max-w-3xl mx-auto p-8 md:p-12 rounded-2xl text-center">
+                 <i data-lucide="message-circle-question" class="w-20 h-20 text-indigo-400 mx-auto mb-6"></i>
+                <h3 class="text-3xl font-bold text-white mb-4">Open for Questions</h3>
+                <p class="text-slate-400 text-lg">
+                   Thank you for your attention. I am now open for any questions you may have about the integration of IoT and Cloud Computing.
+                </p>
             </div>
         </section>
 
@@ -377,3 +521,4 @@
     </script>
 </body>
 </html>
+
