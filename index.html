@@ -109,12 +109,13 @@
              <div class="card max-w-2xl mx-auto p-8 rounded-2xl text-center">
                 <img src="https://placehold.co/80x80/1e293b/c084fc?text=KK" alt="Presenter Avatar" class="rounded-full mx-auto mb-4 border-2 border-violet-400">
                 <h3 class="text-2xl font-bold text-slate-100">Presented By: Keshav Kannan</h3>
+                <p class="text-slate-400 mt-2">Exploring the future of connected devices.</p>
             </div>
         </section>
 
         <!-- 1. Introduction: IoT & Cloud Computing -->
         <section id="introduction" class="scroll-target">
-            <div class="numbered-heading mb-8">
+            <div class="numbered-heading mb-8 justify-center">
                 <span class="number">01</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">The Symbiotic Relationship</h2>
             </div>
@@ -141,7 +142,7 @@
 
         <!-- 2. Evolution of Cloud-based IoT Applications -->
         <section class="scroll-target">
-            <div class="numbered-heading mb-8">
+            <div class="numbered-heading mb-8 justify-center">
                 <span class="number">02</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">The Vision of Connected Living</h2>
             </div>
@@ -187,7 +188,7 @@
 
         <!-- 3. Cloud Computing Service Models -->
         <section class="scroll-target">
-            <div class="numbered-heading mb-8">
+            <div class="numbered-heading mb-8 justify-center">
                 <span class="number">03</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Layers of the Cloud</h2>
             </div>
@@ -221,7 +222,7 @@
         
         <!-- 4. Integrating Cloud with IoT -->
         <section class="scroll-target">
-            <div class="numbered-heading mb-8">
+            <div class="numbered-heading mb-8 justify-center">
                 <span class="number">04</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">A Framework for Integration</h2>
             </div>
@@ -298,7 +299,7 @@
 
         <!-- 5. Big Data Platforms -->
         <section class="scroll-target">
-             <div class="numbered-heading mb-8">
+             <div class="numbered-heading mb-8 justify-center">
                 <span class="number">05</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Handling the Data Deluge</h2>
             </div>
@@ -325,7 +326,7 @@
 
         <!-- 6. Cloud Services for IoT -->
         <section class="scroll-target">
-            <div class="numbered-heading mb-8">
+            <div class="numbered-heading mb-8 justify-center">
                 <span class="number">06</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Specialized IoT Cloud Services</h2>
             </div>
@@ -359,7 +360,7 @@
 
         <!-- 7. Selected Cloud Service Providers -->
         <section class="scroll-target">
-            <div class="numbered-heading mb-8">
+            <div class="numbered-heading mb-8 justify-center">
                 <span class="number">07</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">Major IoT Cloud Platforms</h2>
             </div>
@@ -429,7 +430,54 @@
                 </div>
                 <div class="card p-8 rounded-2xl">
                     <h3 class="text-2xl font-bold text-slate-100 mb-2">ThingSpeak IoT Platform</h3>
-                    <p class="text-slate-400">An open-source platform focused on collecting, storing, and visualizing sensor data in the cloud, with strong integration with MATLAB for analysis.</p>
+                    <p class="text-slate-400 mb-6">An open-source platform focused on collecting, storing, and visualizing sensor data in the cloud, with strong integration with MATLAB for analysis.</p>
+                     <div class="p-6">
+                         <svg width="100%" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                             <style>
+                                .ts-text { font-family: 'Inter', sans-serif; font-size: 12px; fill: #cbd5e1; text-anchor: middle; }
+                                .ts-label { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: bold; fill: #e2e8f0; text-anchor: middle; }
+                                .ts-arrow { stroke: #4f46e5; stroke-width: 2; marker-end: url(#arrowhead); }
+                                .ts-matlab { fill: #f59e0b; }
+                             </style>
+                             <defs>
+                                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+                                  <polygon points="0 0, 10 3.5, 0 7" fill="#4f46e5" />
+                                </marker>
+                              </defs>
+                            
+                             <!-- Devices -->
+                             <g transform="translate(40, 100)">
+                                 <rect x="-25" y="-30" width="50" height="60" fill="#1e293b" stroke="#334155" rx="5"/>
+                                 <g transform="scale(1.2) translate(-12, -12)">
+                                     <path d="M5 11h14M5 7h14M17 15H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2Z" fill="none" stroke="#818cf8" stroke-width="1.5"/>
+                                 </g>
+                                 <text y="50" class="ts-label">Devices</text>
+                                 <text y="65" class="ts-text">(Arduino, Pi)</text>
+                             </g>
+                             
+                             <!-- Arrow 1 -->
+                              <line x1="80" y1="100" x2="130" y2="100" class="ts-arrow" />
+                              
+                             <!-- ThingSpeak Cloud -->
+                             <g transform="translate(180, 100)">
+                                <path d="M17.5 21H.5a.5.5 0 0 1 0-1H11a5.5 5.5 0 1 0-5.46-6.9.5.5 0 0 1 .46-.9A6.5 6.5 0 1 1 17.5 14H21a.5.5 0 0 1 0 1h-3.5a.5.5 0 0 1 0-1H21a.5.5 0 0 1 0 1H17.5a.5.5 0 0 1 0-1H21a.5.5 0 0 1 0 1h-3.5v1a.5.5 0 0 1-1 0v-1H7.5a4.5 4.5 0 1 1 4.46-4.9.5.5 0 0 1 .54.8A3.5 3.5 0 1 0 14.5 14H1a.5.5 0 0 1 0-1h13.5v-1a.5.5 0 0 1 1 0v1Z" transform="scale(2.5) translate(-10, -10)" fill="#4f46e5"/>
+                                 <text y="50" class="ts-label">ThingSpeak Cloud</text>
+                                 <text y="65" class="ts-text">Channels</text>
+                             </g>
+                             
+                             <!-- Arrow 2 -->
+                             <line x1="230" y1="100" x2="280" y2="100" class="ts-arrow" />
+
+                             <!-- Analysis/Visualization -->
+                             <g transform="translate(320, 100)">
+                                 <rect x="-40" y="-30" width="80" height="60" fill="#1e293b" stroke="#334155" rx="5"/>
+                                 <!-- MATLAB-like icon -->
+                                 <path d="M-20 -15 L -5 15 L 0 10 L 5 15 L 20 -15 L 10 0 L 15 -10 L 0 5 L -15 -10 L -10 0 Z" class="ts-matlab"/>
+                                 <text y="50" class="ts-label">Analyze</text>
+                                 <text y="65" class="ts-text">(MATLAB)</text>
+                             </g>
+                         </svg>
+                     </div>
                 </div>
                 <div class="card p-8 rounded-2xl">
                     <h3 class="text-2xl font-bold text-slate-100 mb-2">Google Cloud IoT</h3>
@@ -444,7 +492,7 @@
         
         <!-- 8. REST-based Web Services -->
         <section class="scroll-target">
-            <div class="numbered-heading mb-8">
+            <div class="numbered-heading mb-8 justify-center">
                 <span class="number">08</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-slate-100">REST APIs: The Language of IoT</h2>
             </div>
